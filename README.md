@@ -22,3 +22,10 @@ See the document: [goreleaser - Customization](https://goreleaser.com/customizat
 1. create release with [GitHub CLI](https://github.com/cli/cli): `gh release create`
 1. The build will run automatically and the binaries will be uploaded to the [release](https://github.com/sheepla/goreleaser-example/releases/latest) page
 
+## License
+
+[The Unlicense](./LICENSE)
+
+## Author
+
+[Sheepla](https://github.com/sheepla/)
