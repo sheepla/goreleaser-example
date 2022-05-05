@@ -1,6 +1,17 @@
+<div align="right">
+
+![Release](https://github.com/sheepla/goreleaser-example/actions/workflows/release.yml/badge.svg)
+![Latest Release](https://img.shields.io/github/v/release/sheepla/goreleaser-example?style=flat-square)
+
+</div>
+
 # goreleaser-example
 
+## About
+
 An example repository for [goreleaser](https://goreleaser.com) + [GitHub Actions](https://docs.github.com/ja/actions/learn-github-actions/understanding-github-actions)
+
+*This is an experimental repository. See official documentations for details!*
 
 ## Features
 
@@ -21,6 +32,12 @@ An example repository for [goreleaser](https://goreleaser.com) + [GitHub Actions
 See the document: [goreleaser - Customization](https://goreleaser.com/customization/)
 1. create release with [GitHub CLI](https://github.com/cli/cli): `gh release create`
 1. The build will run automatically and the binaries will be uploaded to the [release](https://github.com/sheepla/goreleaser-example/releases/latest) page
+
+## Documents
+
+- [goreleaser](https://goreleaser.com/customization)
+- [GitHub Actions](https://docs.github.com/ja/actions/learn-github-actions/understanding-github-actions)
+- [GitHub CLI](https://cli.github.com/manual/index)
 
 ## License
 
