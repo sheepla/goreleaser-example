@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 var (
-	appName     = ""
-	appVersion  = ""
-	appRevision = ""
+	appName      = ""
+	appVersion   = ""
+	appRevision  = ""
+	appBuildDate = ""
 )
 
 func main() {
