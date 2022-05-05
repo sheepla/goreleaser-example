@@ -10,5 +10,5 @@ var (
 )
 
 func main() {
-	fmt.Printf("%s %s-%s \n", appName, appVersion, appRevision)
+	fmt.Printf("%s %s-%s \nBuild on %s\n", appName, appVersion, appRevision, appBuildDate)
 }
