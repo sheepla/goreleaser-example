@@ -14,7 +14,7 @@ builds:
       - windows
       - darwin
     ldflags:
-      - -w -s -X main.appVersion={{.Version}} -X main.appRevision={{.Commit}} -X main.appBuildDate={{.Date}}
+      - -w -s -X main.appVersion={{.Version}} -X main.appRevision={{.ShortCommit}} -X main.appBuildDate={{.Date}}
 archives:
   - replacements:
       darwin: Darwin
