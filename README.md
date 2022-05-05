@@ -9,8 +9,8 @@ An example repository for [goreleaser](https://goreleaser.com) + [GitHub Actions
 
 ## Requirements
 
-- [goreleaser](github.com/goreleaser/goreleaser)
-- [GitHub CLI](github.com/cli/cli)
+- [goreleaser](https://github.com/goreleaser/goreleaser)
+- [GitHub CLI](https://github.com/cli/cli)
 
 ## Getting started
 
@@ -19,6 +19,6 @@ An example repository for [goreleaser](https://goreleaser.com) + [GitHub Actions
 1. create [.goreleaser.yaml](.goreleaser.yaml): `goreleaser init`
 1. edit [.goreleaser.yaml](.goreleaser.yaml) to customize build options, etc...
 See the document: [goreleaser - Customization](https://goreleaser.com/customization/)
-1. create release with [GitHub CLI](github.com/cli/cli): `gh release create`
+1. create release with [GitHub CLI](https://github.com/cli/cli): `gh release create`
 1. The build will run automatically and the binaries will be uploaded to the [release](https://github.com/sheepla/goreleaser-example/releases/latest) page
 
